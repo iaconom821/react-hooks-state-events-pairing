@@ -1,5 +1,5 @@
 import video from "../data/video.js";
-import Comments from "./Comments"
+// import Comments from "./Comments"
 import VideoContent from "./VideoContent"
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <VideoContent video={ video }/>
-      
+      {/* {showCommentsGlobal && <Comments comments= {video.comments}/>} */}
     </div>
   );
 }
